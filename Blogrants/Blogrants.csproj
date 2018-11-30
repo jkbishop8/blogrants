@@ -145,7 +145,6 @@
     <Content Include="images\charlotte.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="obj\Release\Blogrants.csproj.FileListAbsolute.txt" />
     <Content Include="obj\Release\Blogrants.dll" />
     <Content Include="obj\Release\Blogrants.pdb" />
     <Content Include="ramble.aspx" />
