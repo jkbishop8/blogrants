@@ -145,8 +145,6 @@
     <Content Include="images\charlotte.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="obj\Release\Blogrants.dll" />
-    <Content Include="obj\Release\Blogrants.pdb" />
     <Content Include="ramble.aspx" />
     <Content Include="Scripts\jquery-ui.js" />
     <Content Include="Scripts\jquery.js" />
@@ -160,12 +158,6 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="obj\Release\CoreCompileInputs.cache" />
-    <Content Include="obj\Release\DesignTimeResolveAssemblyReferences.cache" />
-    <Content Include="obj\Release\DesignTimeResolveAssemblyReferencesInput.cache" />
-    <Content Include="obj\Release\Blogrants.csprojAssemblyReference.cache" />
-    <Content Include="obj\Release\Blogrants.csproj.CoreCompileInputs.cache" />
-    <Content Include="obj\Release\Blogrants.csproj.CopyComplete" />
     <Content Include="obj\Release\TransformWebConfig\assist\Web.config" />
     <Content Include="obj\Release\TransformWebConfig\original\Web.config" />
     <Content Include="obj\Release\TransformWebConfig\transformed\Web.config" />
