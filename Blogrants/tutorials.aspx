@@ -1,4 +1,4 @@
-﻿<%@ Page Title="New Hires" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="tutorials.aspx.cs" Inherits="Newhires" %>
+﻿<%@ Page Title="New Hires" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="tutorials.aspx.cs" Inherits="Tutorials" %>
 
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
@@ -65,7 +65,7 @@
                                    HeaderSelectedCssClass="acoordion" FadeTransitions="true" TransitionDuration="500" AutoSize="None">  
                 <Panes>  
                     <ajaxToolkit:AccordionPane runat="server">  
-                        <Header><p><img src="images/accordgb.png" alt ="Git Branch" ></p>
+                        <Header><p>Example 1</p>
                         </Header>  
                         <Content> 
        <div class="accordionPanel">
@@ -79,7 +79,7 @@
                         </Content>  
                     </ajaxToolkit:AccordionPane>  
                     <ajaxToolkit:AccordionPane runat="server">  
-                        <Header><p><img src="images/accordgcb.png" alt ="Git Create Branch" ></Header>  
+                        <Header><p>example 2 </p></Header>  
                         <Content>  
                            <p> Allows you to create a branch. </p>   
                              

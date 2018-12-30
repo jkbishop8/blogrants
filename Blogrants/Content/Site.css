@@ -735,6 +735,27 @@ aside h2 {
         overflow: hidden;
         transition: max-height 0.2s ease-out;
     }
+
+    .HeaderCssClass {
+        background-color: #c33803;
+        color: white;
+        border: 1px solid black;
+        padding: 4px;
+    }
+
+    .ContentCssClass {
+        background-color: #e59a7d;
+        color: black;
+        border: 1px dotted black;
+        padding: 4px;
+    }
+
+    .HeaderSelectedCssClass {
+        background-color: #808080;
+        color: white;
+        border: 1px solid black;
+        padding: 4px;
+    } 
 }
 
 /*footer styles */
