@@ -9,7 +9,7 @@
 
 
 
-public partial class Ramble {
+public partial class Tutorials {
     
     /// <summary>
     /// accordionPanel control.

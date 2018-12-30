@@ -145,6 +145,7 @@
     <Content Include="images\charlotte.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="tutorials.aspx" />
     <Content Include="ramble.aspx" />
     <Content Include="Scripts\jquery-ui.js" />
     <Content Include="Scripts\jquery.js" />
@@ -202,6 +203,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="tutorials.aspx.cs">
+      <DependentUpon>tutorials.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="tutorials.aspx.designer.cs">
+      <DependentUpon>tutorials.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ramble.aspx.cs">
       <DependentUpon>ramble.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
