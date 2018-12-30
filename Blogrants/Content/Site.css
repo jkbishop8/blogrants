@@ -976,14 +976,14 @@ aside h2 {
 
     section th {
         padding: 5px;
-        text-align: center;
+        text-align: left;
     }
 
   article section tr {
         border-top: 1px solid #FB7A31;
         border-bottom: 1px solid #FB7A31;
         background: #FFC;
-        text-align: center;
+        text-align: left;
         padding: 1px, 1px, 1px, 1px;
     }
 
