@@ -140,6 +140,8 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="images\ti01.PNG" />
+    <Content Include="images\ti02.PNG" />
+    <Content Include="images\view.jpg" />
     <Content Include="tutorials.aspx" />
     <Content Include="ramble.aspx" />
     <Content Include="Scripts\jquery-ui.js" />

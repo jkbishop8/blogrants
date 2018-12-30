@@ -63,7 +63,7 @@
   <h2></h2>
   <ul>
     <li><a href="default.aspx" title="Home Page" class="index"> Blogrants <em> Landing Page </em></a> </li>
-	<li><a href="ramble.aspx" title="Ramblings" class="writing current"> Tutorials <em> Tech Tidbits </em></a> </li>
+	<li><a href="tutorials.aspx" title="Tutorials" class="tutorials current"> Tutorials <em> Tech Tidbits </em></a> </li>
  </ul>
 </nav>
 <section id="content">
@@ -85,7 +85,7 @@
                                    HeaderSelectedCssClass="HeaderSelectedCss" FadeTransitions="true" TransitionDuration="500" 
                                    AutoSize="None" SelectedIndex="0">  
                 <Panes>  
-                     <ajaxToolkit:AccordionPane ID="AccordionPane2" runat="server">  
+                     <ajaxToolkit:AccordionPane ID="AccordionPane1" runat="server">  
                         <Header>Git Clone Repo</Header>  
                         <Content>  
                             <b>Allows you to clone a repo from your self with three simple letters!</b>  
@@ -104,11 +104,13 @@
                               <tr><td><font color="blue">read</font> repo</td></tr>
                               <tr><td><font color="blue">git</font> clone <font color="grey"> "$repo"</font></td></tr>
                               <tr><td>}</td></tr>
+                              <tr><td>Now just paste your URL into the prompt:</td></tr>
+                              <tr><td><img src="images/ti02.PNG" /></td></tr>
                             </table>
                         </Content>  
                     </ajaxToolkit:AccordionPane>  
 
-                    <ajaxToolkit:AccordionPane ID="AccordionPane1" runat="server">  
+                    <ajaxToolkit:AccordionPane ID="AccordionPane2" runat="server">  
                         <Header>Git Branch 
                         </Header>  
                         <Content>
@@ -130,7 +132,7 @@
                               <tr><td><font color="blue">git</font> checkout <font color="grey"> "$branch"</font></td></tr>
                               <tr><td>}</td></tr>
                               <tr><td>Here it is in action!</td></tr>
-                              <tr><td><img src="images/ti01.PNG" /></img></td></tr>
+                              <tr><td><img src="images/ti01.PNG" /></td></tr>
                             </table>
                         </Content> 
                       </ajaxToolkit:AccordionPane>  
@@ -143,9 +145,41 @@
             </section>          
             
         <%-- Sections to expand on removing will mess up box model. See notes in Site.CSS Lines 183 and 184  --%>
-          
+          <h1>Git Aliases</h1>
             <section>
+                <div>  
+            <ajaxToolkit:Accordion ID="Accordion3" runat="server" HeaderCssClass="HeaderCssClass" ContentCssClass="ContentCssClass" 
+                                   HeaderSelectedCssClass="HeaderSelectedCss" FadeTransitions="true" TransitionDuration="500" 
+                                   AutoSize="None" SelectedIndex="0">  
+                <Panes>  
                     
+                      <ajaxToolkit:AccordionPane ID="AccordionPane3" runat="server">  
+                        <Header>Notepad
+                        </Header>  
+                          <Content>  
+                            <b>Create a link to yoru notepad app.</b>  
+                            <table>
+                              <tr><td><font color="blue">alias</font><font color="black"> notepad</font><code> =</code><font color="grey">"/c/Program\ Files\ \(x86\)/Notepad++/notepad++.exe"</font></td></tr>
+                            </table>
+                        </Content>  
+                      </ajaxToolkit:AccordionPane>  
+                    
+                    <ajaxToolkit:AccordionPane ID="AccordionPane4" runat="server">  
+                        <Header>Branch Most Recent</Header>  
+                        <Content>  
+                            <b>Shows a quick view of your current branch by limiting it to 32 entries.</b>  
+                            <table>
+                              <tr><td><font color="green">#Branch Most Recent</font></td></tr>
+                              <tr><td><font color="blue">alias</font><font color="black"> bmr</font><code> =</code><font color="grey">"git log --graph --decorate --branches --oneline --date-order --abbrev-commit --oneline --max-count=32"</font></td></tr>
+                            </table>
+                        </Content>  
+                    </ajaxToolkit:AccordionPane>  
+
+                  
+           
+                </Panes>  
+            </ajaxToolkit:Accordion>  
+        </div>     
                  
         
    

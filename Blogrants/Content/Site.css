@@ -832,11 +832,11 @@ aside h2 {
             }
 
 /* Content Not available yet but reserved for box integrity and future images sprites on nav bar*/
-    .newhires {
+    .tutorials {
         background: url(../images/img01.png) no-repeat center 30px;
     }
 
-    .index {
+    .main {
         background: url(../images/img02.png) no-repeat center -69px;
     }
 
@@ -875,7 +875,7 @@ aside h2 {
     .altbanner {
         padding-left: 3.9%;
         overflow: hidden;
-        background: url(../images/sm_philly_banner.jpg) no-repeat;
+        background: url(../images/view.jpg) no-repeat;
         margin-bottom: 3em;
         position: relative;
     }
@@ -1251,7 +1251,7 @@ aside h2 {
         height: 350px;
         padding-left: 3.9%;
         overflow: hidden;
-        background: url(../images/charlotte.jpg) no-repeat;
+        background: url(../images/view.jpg) no-repeat;
         margin-bottom: 4em;
         position: relative;
     }
