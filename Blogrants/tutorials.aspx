@@ -171,6 +171,8 @@
                             <table>
                               <tr><td><font color="green">#Branch Most Recent</font></td></tr>
                               <tr><td><font color="blue">alias</font><font color="black"> bmr</font><code> =</code><font color="grey">"git log --graph --decorate --branches --oneline --date-order --abbrev-commit --oneline --max-count=32"</font></td></tr>
+                              <tr><td>Here's what my project looks like at the time of this edit with bmr:</td></tr>
+                              <tr><td><img src="images/ti03.PNG" />
                             </table>
                         </Content>  
                     </ajaxToolkit:AccordionPane>  
