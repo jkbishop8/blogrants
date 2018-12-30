@@ -55,7 +55,7 @@
   <hgroup>
       
     <h1>Blogrants</h1>
-    <h2>Ramblings</h2>
+    <h2>Tutorials and Tidbits</h2>
     
  </hgroup> 
 </header>
