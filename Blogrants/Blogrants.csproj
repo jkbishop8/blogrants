@@ -133,18 +133,13 @@
     <Content Include="bin\Blogrants.dll" />
     <Content Include="bin\Blogrants.pdb" />
     <Content Include="Content\Site.css" />
-    <Content Include="images\accordgb.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="images\accordgcb.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="images\bishapps_logo.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="images\charlotte.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="images\ti01.PNG" />
     <Content Include="tutorials.aspx" />
     <Content Include="ramble.aspx" />
     <Content Include="Scripts\jquery-ui.js" />
