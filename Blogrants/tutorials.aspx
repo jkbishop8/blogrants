@@ -1,4 +1,4 @@
-﻿<%@ Page Title="New Hires" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="tutorials.aspx.cs" Inherits="Tutorials" %>
+﻿<%@ Page Title="Blogrants: Tutorials" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="tutorials.aspx.cs" Inherits="Tutorials" %>
 
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
@@ -28,11 +28,30 @@
                                                                 }          
                                            }
                               </script>                            
-               
-    
+       
 
     <%-- This section provides the graphic and text placement for top of the page --%>
     <header id="pageHeader">
+            <style>  
+        .HeaderCssClass{  
+            background-color:#c33803;  
+            color:white;  
+            border:1px solid black;  
+            padding:4px;  
+        }  
+        .ContentCssClass{  
+            background-color:#e59a7d;  
+            color:black;  
+            border:1px dotted black;  
+            padding:4px;  
+        }  
+        .HeaderSelectedCss{  
+            background-color:#808080;  
+            color:white;  
+            border:1px solid black;  
+            padding:4px;  
+        }  
+    </style>  
   <hgroup>
       
     <h1>Blogrants</h1>
@@ -57,36 +76,41 @@
   </div>
 </section>
 
-        <article id="newhires">
+        <article id="tutorials">
             <h1>Git Functions - Basic</h1>
             <section>
             
-            <ajaxToolkit:Accordion ID="accordionPanel" runat="server" ContentCssClass="accordion" HeaderCssClass="accordion"
-                                   HeaderSelectedCssClass="acoordion" FadeTransitions="true" TransitionDuration="500" AutoSize="None">  
+                <div>  
+            <ajaxToolkit:Accordion ID="Accordion1" runat="server" HeaderCssClass="HeaderCssClass" ContentCssClass="ContentCssClass" 
+                                   HeaderSelectedCssClass="HeaderSelectedCss" FadeTransitions="true" TransitionDuration="500" 
+                                   AutoSize="None" SelectedIndex="0">  
                 <Panes>  
-                    <ajaxToolkit:AccordionPane runat="server">  
-                        <Header><p>Example 1</p>
+                    <ajaxToolkit:AccordionPane ID="AccordionPane1" runat="server">  
+                        <Header>Git Branch 
                         </Header>  
-                        <Content> 
-       <div class="accordionPanel">
-		<p> This function allows you to view and then choose a branch. </p>
-			<!-- Overrides global UL rules -->
-			<code class="panel">
-				Wait for it!
-
-			</code>
-	  </div>
+                        <Content><b><u>This allows you to see both local and remote branches, then type in which one you want to checkout.</u></b>  
+                            <table>  
+                                <tr><td>Name:</td><td><input type="text" /></td></tr>  
+                                <tr><td>Password:</td><td><input type="text" /></td></tr>  
+                                <tr><td>Re-Password:</td><td><input type="text" /></td></tr>  
+                                <tr><td></td><td><input type="button" value="Submit"/></td></tr>  
+                            </table>  
                         </Content>  
                     </ajaxToolkit:AccordionPane>  
-                    <ajaxToolkit:AccordionPane runat="server">  
-                        <Header><p>example 2 </p></Header>  
+                    <ajaxToolkit:AccordionPane ID="AccordionPane2" runat="server">  
+                        <Header>Login</Header>  
                         <Content>  
-                           <p> Allows you to create a branch. </p>   
-                             
+                            <b><u>Login User</u></b>  
+                            <table>  
+                                <tr><td>Name:</td><td><input type="text" /></td></tr>  
+                                <tr><td>Password:</td><td><input type="text" /></td></tr>  
+                                <tr><td></td><td><input type="button" value="Login"/></td></tr>  
+                            </table>  
                         </Content>  
                     </ajaxToolkit:AccordionPane>  
                 </Panes>  
             </ajaxToolkit:Accordion>  
+        </div> 
               
       
             </section>          
@@ -94,7 +118,11 @@
         <%-- Sections to expand on removing will mess up box model. See notes in Site.CSS Lines 183 and 184  --%>
           
             <section>
-                          
+                    
+                 
+        
+   
+  
                                              
             </section>
 

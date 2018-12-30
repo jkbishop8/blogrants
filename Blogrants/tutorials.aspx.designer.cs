@@ -12,11 +12,29 @@
 public partial class Tutorials {
     
     /// <summary>
-    /// accordionPanel control.
+    /// Accordion1 control.
     /// </summary>
     /// <remarks>
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::AjaxControlToolkit.Accordion accordionPanel;
+    protected global::AjaxControlToolkit.Accordion Accordion1;
+    
+    /// <summary>
+    /// AccordionPane1 control.
+    /// </summary>
+    /// <remarks>
+    /// Auto-generated field.
+    /// To modify move field declaration from designer file to code-behind file.
+    /// </remarks>
+    protected global::AjaxControlToolkit.AccordionPane AccordionPane1;
+    
+    /// <summary>
+    /// AccordionPane2 control.
+    /// </summary>
+    /// <remarks>
+    /// Auto-generated field.
+    /// To modify move field declaration from designer file to code-behind file.
+    /// </remarks>
+    protected global::AjaxControlToolkit.AccordionPane AccordionPane2;
 }
