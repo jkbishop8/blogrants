@@ -12,7 +12,7 @@ namespace Blogrants
 
 
 
-public partial class Ramble : System.Web.UI.Page
+public partial class Tutorials : System.Web.UI.Page
 {
     
      

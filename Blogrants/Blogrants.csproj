@@ -133,18 +133,16 @@
     <Content Include="bin\Blogrants.dll" />
     <Content Include="bin\Blogrants.pdb" />
     <Content Include="Content\Site.css" />
-    <Content Include="images\accordgb.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="images\accordgcb.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="images\bishapps_logo.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="images\charlotte.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="images\ti01.PNG" />
+    <Content Include="images\ti02.PNG" />
+    <Content Include="images\view.jpg" />
+    <Content Include="tutorials.aspx" />
     <Content Include="ramble.aspx" />
     <Content Include="Scripts\jquery-ui.js" />
     <Content Include="Scripts\jquery.js" />
@@ -202,6 +200,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="tutorials.aspx.cs">
+      <DependentUpon>tutorials.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="tutorials.aspx.designer.cs">
+      <DependentUpon>tutorials.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ramble.aspx.cs">
       <DependentUpon>ramble.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
