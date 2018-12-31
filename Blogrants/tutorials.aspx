@@ -157,7 +157,7 @@
                         <Header>Notepad
                         </Header>  
                           <Content>  
-                            <b>Create a link to yoru notepad app.</b>  
+                            <b>Creates a reference to your notepad app for various scenarios.</b>  
                             <table>
                               <tr><td><font color="blue">alias</font><font color="black"> notepad</font><code> =</code><font color="grey">"/c/Program\ Files\ \(x86\)/Notepad++/notepad++.exe"</font></td></tr>
                             </table>
