@@ -1,8 +1,11 @@
 ﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Default" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-
- 
+   <!DOCTYPE html>
+    <meta charset="utf-8">
+    <meta name="description" content="Blog and tech tidbits by Jeremy Bishop">
+    <meta name="keywords" content="Git,.net,MVC,blog">
+    <meta name="author" content="Jeremy Bishop">
     <header id="pageHeader">
   <hgroup>
       

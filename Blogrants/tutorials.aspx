@@ -5,6 +5,9 @@
     <!DOCTYPE html>
 
     <meta charset="utf-8">
+    <meta name="description" content="Blog and tech tidbits by Jeremy Bishop">
+    <meta name="keywords" content="Git,.net,MVC,blog">
+    <meta name="author" content="Jeremy Bishop">
 
                    <%--   Global validation script for all fields  --%>
                               <script type="text/javascript">
