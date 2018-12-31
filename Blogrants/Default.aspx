@@ -36,7 +36,7 @@
           <p> Welcome to my blog that features tips in tricks as well as a look into my mind.</p>
         <p>I plan to focus more on source control and GIT while also documenting and analyzing dreams. Hope you enjoy the ride!</p> 
 
-        <p>This site is currently under construction as you can see. This site will actually be part of the tutorials shown on it. </p>
+        <p>This site is currently under construction as you can see and will actually be part of the tutorials shown on it. </p>
 
     <div>
 
