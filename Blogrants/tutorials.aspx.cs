@@ -7,7 +7,17 @@ using System.Threading;
 
 namespace Blogrants
 {
+    public partial class _Tutorials : Page
+    {
 
+
+
+
+        protected void Page_Load(object sender, EventArgs e)
+        {
+
+        }
+    }
 }
 
 
