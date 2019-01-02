@@ -88,7 +88,17 @@
                                    HeaderSelectedCssClass="HeaderSelectedCss" FadeTransitions="true" TransitionDuration="500" 
                                    AutoSize="None" SelectedIndex="0">  
                 <Panes>  
-                     <ajaxToolkit:AccordionPane ID="AccordionPane1" runat="server">  
+                     
+                    <ajaxToolkit:AccordionPane ID="AccordionPane5" runat="server">  
+                        <Header>Instructions: 
+                        </Header>  
+                        <Content>
+                            <p>Information contained in these panels will need to be added into your .bashrc folder. Copy and paste them in at will!</p>
+                            
+                        </Content> 
+                      </ajaxToolkit:AccordionPane> 
+                    
+                    <ajaxToolkit:AccordionPane ID="AccordionPane1" runat="server">  
                         <Header>Git Clone Repo</Header>  
                         <Content>  
                             <b>Allows you to clone a repo from your self with three simple letters!</b>  
@@ -155,7 +165,14 @@
                                    HeaderSelectedCssClass="HeaderSelectedCss" FadeTransitions="true" TransitionDuration="500" 
                                    AutoSize="None" SelectedIndex="0">  
                 <Panes>  
-                    
+                    <ajaxToolkit:AccordionPane ID="AccordionPane6" runat="server">  
+                        <Header>Instructions: 
+                        </Header>  
+                        <Content>
+                            <p>Information contained in these panels will need to be added into your .bashrc folder. Copy and paste them in at will!</p>
+                            
+                        </Content> 
+                      </ajaxToolkit:AccordionPane> 
                       <ajaxToolkit:AccordionPane ID="AccordionPane3" runat="server">  
                         <Header>Notepad
                         </Header>  
