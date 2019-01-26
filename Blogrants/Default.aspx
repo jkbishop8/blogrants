@@ -16,6 +16,7 @@
   <ul>
     <li><a href="default.aspx" title="Home Page" class="index current"> Blogrants <em> Landing Page </em></a> </li>
 	<li><a href="tutorials.aspx" title="" class="tutorials"> Tutorials <em> Tech Tidbits </em></a> </li>
+    <li><a href="ramble.aspx" title="Ramblings" class="writing"> Ramblings <em> Writing Center </em></a> </li>
  </ul>
 </nav>
 <section id="content">
