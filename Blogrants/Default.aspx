@@ -37,7 +37,7 @@
   <article id="main">
     <h1>Hello There!</h1>
     <section>
-          <p> Welcome to my blog that features tips in tricks as well as a look into my mind.</p>
+          <p> Welcome to my blog that features tips and tricks as well as a look into my mind.</p>
           <br/>
           <p> I plan to focus more on source control and GIT while also documenting and analyzing dreams. Hope you enjoy the ride!</p>
           <br/>
