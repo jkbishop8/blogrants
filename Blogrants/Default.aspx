@@ -19,6 +19,7 @@
   <ul>
     <li><a href="default.aspx" title="Home Page" class="index current"> Blogrants <em> Landing Page </em></a> </li>
 	<li><a href="tutorials.aspx" title="" class="tutorials"> Tutorials <em> Tech Tidbits </em></a> </li>
+    <li><a href="ramble.aspx" title="Ramblings" class="writing"> Ramblings <em> Writing Center </em></a> </li>
  </ul>
 </nav>
 <section id="content">
@@ -39,7 +40,7 @@
           <p> Welcome to my blog that features tips in tricks as well as a look into my mind.</p>
         <p>I plan to focus more on source control and GIT while also documenting and analyzing dreams. Hope you enjoy the ride!</p> 
 
-        <p>This site is currently under construction as you can see and will actually be part of the tutorials shown on it. </p>
+        <p>Created with much love using in .Net while using Azure DevOps and Github to publish. </p>
 
     <div>
 
