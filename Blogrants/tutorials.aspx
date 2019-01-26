@@ -170,7 +170,7 @@
                         <Header>Instructions: 
                         </Header>  
                         <Content>
-                            <p>Information contained in these panels will need to be added into your .bashrc folder. Copy and paste them in at will!</p>
+                           <br /> Information contained in these panels will need to be added into your .bashrc folder. Copy and paste them in at will!
                             
                         </Content> 
                       </ajaxToolkit:AccordionPane> 

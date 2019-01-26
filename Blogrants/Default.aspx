@@ -27,10 +27,10 @@
       
       
     <h1>Intro Page</h1>
-    <p> The IT industry found me while I was attending a couple of journalism classes because I had a tendency to help my professors fix technical issues.
-					<br/>
+    The IT industry found me while I was attending a couple of journalism classes because I had a tendency to help my professors fix technical issues.
+					
 					<br/>				
-					I've been called a "jack of all trades" but have found that my mastery is in adaptation. This .Net site is a working example of that! </p> 
+					I've been called a "jack of all trades" but have found that my mastery is in adaptation. This .Net site is a working example of that! 
 
   </div>
 </section>
@@ -39,9 +39,9 @@
     <section>
           <p> Welcome to my blog that features tips in tricks as well as a look into my mind.</p>
           <br/>
-          <p>I plan to focus more on source control and GIT while also documenting and analyzing dreams. Hope you enjoy the ride!</p> 
+          <p> I plan to focus more on source control and GIT while also documenting and analyzing dreams. Hope you enjoy the ride!</p>
           <br/>
-          <p>Created with much love using in .Net along with builds provided by Azure DevOps. Mobile mastery is lacking so excuse those <code>br/</code>'s! </p>
+         <p> Created with much love using .Net along with builds provided by Azure DevOps and Source Control by GitHub.</p>
 
     <div>
 
