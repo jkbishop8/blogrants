@@ -38,9 +38,10 @@
     <h1>Hello There!</h1>
     <section>
           <p> Welcome to my blog that features tips in tricks as well as a look into my mind.</p>
-        <p>I plan to focus more on source control and GIT while also documenting and analyzing dreams. Hope you enjoy the ride!</p> 
-
-        <p>Created with much love using in .Net while using Azure DevOps and Github to publish. </p>
+          <br/>
+          <p>I plan to focus more on source control and GIT while also documenting and analyzing dreams. Hope you enjoy the ride!</p> 
+          <br/>
+          <p>Created with much love using in .Net along with builds provided by Azure DevOps. Mobile mastery is lacking so excuse those <code>br/</code>'s! </p>
 
     <div>
 
