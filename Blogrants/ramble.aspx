@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Ramblings" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="ramble.aspx.cs" Inherits="Ramble" %>
+﻿<%@ Page Title="New Hires" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="ramble.aspx.cs" Inherits="Ramble" %>
 
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
