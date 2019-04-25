@@ -241,6 +241,7 @@
     </Content>
     <Content Include="Bundle.config" />
     <Content Include="images\gitcommitchanges.png" />
+    <Content Include="images\gitPushUp.png" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
