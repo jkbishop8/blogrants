@@ -175,7 +175,7 @@
                         </Content> 
                       </ajaxToolkit:AccordionPane>  
                         
-                       <ajaxToolkit:AccordionPane ID="AccordionPane4" runat="server">  
+                       <ajaxToolkit:AccordionPane ID="AccordionPane5" runat="server">  
                         <Header>Git Clean Untracked
                         </Header>  
                         <Content>
@@ -201,6 +201,30 @@
                             </table>
                         </Content> 
                       </ajaxToolkit:AccordionPane>  
+                        
+                      <ajaxToolkit:AccordionPane ID="AccordionPane6" runat="server">  
+                        <Header>Git Commit Changes
+                        </Header>  
+                        <Content>
+                            <b>Add all your files and commit message in one command!</b>  
+                            <table>
+                              <tr><td><font color="green">#Git Commit Changes</font></td></tr>
+                              <tr><td>gb <code>()</code></td></tr>
+                              <tr><td>{</td></tr>
+                              <tr><td>tput setaf <font color="red">5;</font></td></tr>
+                              <tr><td>tput bold;</td></tr>
+                              <tr><td><font color="blue">echo</font><font color="grey"> "Remember to press [Enter] after making your choice!"</font></td></tr>
+                              <tr><td>tput sgr0;</td></tr>
+                              <tr><td>tput setaf <font color="red">4;</font></td></tr>
+                              <tr><td>tput bold;</td></tr>
+                              <tr><td><font color="blue">echo</font> -n <font color="grey"> "Paste or type your message:"</font></td></tr>
+                              <tr><td>tput sgr0;</td></tr>
+                              <tr><td><font color="blue">read</font>message</td></tr>
+                              <tr><td><font color="blue">git</font> git commit -am<font color="grey"> "$message"</font></td></tr>
+                              <tr><td>}</td></tr>
+                            </table>
+                        </Content> 
+                      </ajaxToolkit:AccordionPane> 
            
                 </Panes>  
             </ajaxToolkit:Accordion>  
@@ -217,7 +241,7 @@
                                    HeaderSelectedCssClass="HeaderSelectedCss" FadeTransitions="true" TransitionDuration="500" 
                                    AutoSize="None" SelectedIndex="0">  
                 <Panes>  
-                    <ajaxToolkit:AccordionPane ID="AccordionPane5" runat="server">  
+                    <ajaxToolkit:AccordionPane ID="AccordionPane7" runat="server">  
                         <Header>Instructions: 
                         </Header>  
                         <Content>
@@ -225,7 +249,7 @@
                             
                         </Content> 
                       </ajaxToolkit:AccordionPane> 
-                      <ajaxToolkit:AccordionPane ID="AccordionPane6" runat="server">  
+                      <ajaxToolkit:AccordionPane ID="AccordionPane8" runat="server">  
                         <Header>Notepad
                         </Header>  
                           <Content>  
@@ -236,7 +260,7 @@
                         </Content>  
                       </ajaxToolkit:AccordionPane>  
                     
-                    <ajaxToolkit:AccordionPane ID="AccordionPane7" runat="server">  
+                    <ajaxToolkit:AccordionPane ID="AccordionPane9" runat="server">  
                         <Header>Branch Most Recent</Header>  
                         <Content>  
                             <b>Shows a quick view of your current branch by limiting it to 32 entries.</b>  
