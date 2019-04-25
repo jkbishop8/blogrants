@@ -90,7 +90,7 @@
                                    AutoSize="None" SelectedIndex="0">  
                 <Panes>  
                      
-                    <ajaxToolkit:AccordionPane ID="AccordionPane5" runat="server">  
+                    <ajaxToolkit:AccordionPane ID="AccordionPane1" runat="server">  
                         <Header>Instructions: 
                         </Header>  
                         <Content>
@@ -99,7 +99,7 @@
                         </Content> 
                       </ajaxToolkit:AccordionPane> 
                     
-                    <ajaxToolkit:AccordionPane ID="AccordionPane1" runat="server">  
+                    <ajaxToolkit:AccordionPane ID="AccordionPane2" runat="server">  
                         <Header>Git Clone Repo</Header>  
                         <Content>  
                             <b>Allows you to clone a repo from your self with three simple letters!</b>  
@@ -124,7 +124,7 @@
                         </Content>  
                     </ajaxToolkit:AccordionPane>  
 
-                    <ajaxToolkit:AccordionPane ID="AccordionPane2" runat="server">  
+                    <ajaxToolkit:AccordionPane ID="AccordionPane3" runat="server">  
                         <Header>Git Branch 
                         </Header>  
                         <Content>
@@ -150,6 +150,57 @@
                             </table>
                         </Content> 
                       </ajaxToolkit:AccordionPane>  
+                        
+                       <ajaxToolkit:AccordionPane ID="AccordionPane4" runat="server">  
+                        <Header>Git Squash Commit 
+                        </Header>  
+                        <Content>
+                            <b>Squash commits like a ninja!</b>  
+                            <table>
+                              <tr><td><font color="green">#Git Squash Commits</font></td></tr>
+                              <tr><td>gb <code>()</code></td></tr>
+                              <tr><td>{</td></tr>
+                              <tr><td>tput setaf <font color="red">5;</font></td></tr>
+                              <tr><td>tput bold;</td></tr>
+                              <tr><td><font color="blue">echo</font><font color="grey"> "Remember to press [Enter] after making your choice!"</font></td></tr>
+                              <tr><td>tput sgr0;</td></tr>
+                              <tr><td>tput setaf <font color="red">4;</font></td></tr>
+                              <tr><td>tput bold;</td></tr>
+                              <tr><td><font color="blue">echo</font> -n <font color="grey"> "How many commits do you want to combine?"</font></td></tr>
+                              <tr><td>tput sgr0;</td></tr>
+                              <tr><td><font color="blue">read</font>commits</td></tr>
+                              <tr><td><font color="blue">git</font> rebase -i HEAD~<font color="grey"> "$commits"</font></td></tr>
+                              <tr><td>}</td></tr>
+                            </table>
+                        </Content> 
+                      </ajaxToolkit:AccordionPane>  
+                        
+                       <ajaxToolkit:AccordionPane ID="AccordionPane4" runat="server">  
+                        <Header>Git Clean Untracked
+                        </Header>  
+                        <Content>
+                            <b>Clean out files from resolving conflicts or those that you don't want added to the project. </b>  
+                            <table>
+                              <tr><td><font color="green">#Git Clean Untracked</font></td></tr>
+                              <tr><td>gb <code>()</code></td></tr>
+                              <tr><td>{</td></tr>
+                              <tr><td>tput setaf <font color="red">5;</font></td></tr>
+                              <tr><td>tput bold;</td></tr>
+                              <tr><td><font color="blue">echo</font><font color="grey"> "Remember to press [Enter] after making your choice!"</font></td></tr>
+                              <tr><td>tput sgr0;</td></tr>
+                              <tr><td>tput setaf <font color="red">5;</font></td></tr>
+                              <tr><td>tput bold;</td></tr>
+                              <tr><td><font color="blue">echo</font><font color="grey">"Usage: -n (display), -f (force), -d (directory) -fd (remove files and directories)"</font></td>></tr>
+                              <tr><td>tput setaf <font color="red">4;</font></td></tr>
+                              <tr><td>tput bold;</td></tr>
+                              <tr><td><font color="blue">echo</font> -n <font color="grey"> "Enter in parameters"</font></td></tr>
+                              <tr><td>tput sgr0;</td></tr>
+                              <tr><td><font color="blue">read</font>parameters</td></tr>
+                              <tr><td><font color="blue">git</font> git clean<font color="grey"> "$parameters"</font></td></tr>
+                              <tr><td>}</td></tr>
+                            </table>
+                        </Content> 
+                      </ajaxToolkit:AccordionPane>  
            
                 </Panes>  
             </ajaxToolkit:Accordion>  
@@ -166,7 +217,7 @@
                                    HeaderSelectedCssClass="HeaderSelectedCss" FadeTransitions="true" TransitionDuration="500" 
                                    AutoSize="None" SelectedIndex="0">  
                 <Panes>  
-                    <ajaxToolkit:AccordionPane ID="AccordionPane6" runat="server">  
+                    <ajaxToolkit:AccordionPane ID="AccordionPane5" runat="server">  
                         <Header>Instructions: 
                         </Header>  
                         <Content>
@@ -174,7 +225,7 @@
                             
                         </Content> 
                       </ajaxToolkit:AccordionPane> 
-                      <ajaxToolkit:AccordionPane ID="AccordionPane3" runat="server">  
+                      <ajaxToolkit:AccordionPane ID="AccordionPane6" runat="server">  
                         <Header>Notepad
                         </Header>  
                           <Content>  
@@ -185,7 +236,7 @@
                         </Content>  
                       </ajaxToolkit:AccordionPane>  
                     
-                    <ajaxToolkit:AccordionPane ID="AccordionPane4" runat="server">  
+                    <ajaxToolkit:AccordionPane ID="AccordionPane7" runat="server">  
                         <Header>Branch Most Recent</Header>  
                         <Content>  
                             <b>Shows a quick view of your current branch by limiting it to 32 entries.</b>  
@@ -193,8 +244,8 @@
                               <tr><td><font color="green">#Branch Most Recent</font></td></tr>
                               <tr><td><font color="blue">alias</font><font color="black"> bmr</font><code> =</code><font color="grey">"git log --graph --decorate --branches --oneline --date-order --abbrev-commit --oneline --max-count=32"</font></td></tr>
                               <tr><td>Here's what my project looks like at the time of this edit with bmr:</td></tr>
-                              <tr><td><img src="images/ti03.PNG" />
-                            </table>
+                              <tr><td><img src="images/ti03.PNG" /></td></tr>
+                              </table>>
                         </Content>  
                     </ajaxToolkit:AccordionPane>  
 
